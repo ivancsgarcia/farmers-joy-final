@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.one,
+/* .two, */
+.three,
+/* .four, */
+.five {
+  /* border: 1px solid black; */
+  padding: 3rem;
+  text-align: center;
+  min-height: 50svh;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.one img,
+.five img {
+  margin: 0 5px;
+}
+
+.one p,
+.three p,
+.five p {
+  padding: 0 2rem 0.5rem;
+  font-size: 20px;
+}
+
+.one h2,
+.three h2,
+.five h2 {
+  padding-bottom: 1rem;
+  font-size: 45px;
+}
+
+.three img {
+  margin: 5px;
+}
+
+/* .min-width {
+  min-width: 50%;
+} */
+
+button {
+  /* padding: 10px;
+  border-radius: 10px;
+  font-size: 20px; */
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: rgba(70, 120, 70, 0.9);
+  border: transparent;
+}
+
+button:hover {
+  background: rgba(70, 120, 70);
+}
+
+.one a:hover,
+.three a:hover,
+.five a:hover {
+  color: white;
+}
+
+.two,
+.four {
+  position: relative;
+}
+
+.two h2,
+.four h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+
+.two .image {
+  min-height: 15svh;
+  /* background: url("./img/03FruitsVegetables.jpg") fixed center;
+  background-size: cover; */
+  background: rgba(70, 120, 70);
+}
+
+.four .image {
+  min-height: 15svh;
+  /* background: url("./img/fruits-and-vegetables.jpg") fixed center;
+  background-size: cover; */
+  background: rgba(70, 120, 70);
+}
+
+.x {
+  margin: 0 5rem;
+}
+
+.breadcrumbs {
+  height: 75svh;
+}
